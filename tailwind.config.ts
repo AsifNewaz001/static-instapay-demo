@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				instapay: {
+					red: '#B92025',
+					blue: '#E8F1FB',
+					darkblue: '#0066CC',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
